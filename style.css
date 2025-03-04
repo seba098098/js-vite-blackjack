@@ -1,0 +1,33 @@
+ 
+ /*convertir toda la patilla en un color  */
+ html,body{
+  margin: 10px;
+  background-color: rgb(100, 0, 140);
+  color: antiquewhite;
+}
+
+
+
+/* centrar ,color arriba , color de la letra  */
+.titulo {
+  text-align:center;  
+  background-color: rgb(100, 0, 0);
+  color: white;
+  padding:20px ;
+  font-size: 30px;
+}
+
+.carta {
+  position: relative;
+  width: 150px;
+  left: 470px;
+  margin: -50px;
+  padding: 25px;
+  text-align: center;
+}
+
+/* para llamar un id llamamos con # */
+#computadora-cartas,#jugador-cartas{
+  height: 200px;
+ 
+}
